@@ -1,0 +1,17 @@
+{
+  "name": "raw-html-shortcode",
+  "version": "0.0.1",
+  "author": "Tim Petter",
+  "private": true,
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-watch": "*",
+    "grunt-contrib-uglify": "*",
+    "grunt-contrib-copy": "*",
+    "grunt-contrib-cssmin": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-cssc": "*",
+    "grunt-htmlhint": "*",
+    "matchdep": "*"
+  }
+}
