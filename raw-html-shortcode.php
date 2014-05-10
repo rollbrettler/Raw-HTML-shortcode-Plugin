@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Raw HTML shortcode Plugin
- * Plugin URI: https://timpetter.de/
+ * Plugin URI: https://github.com/rollbrettler/Raw-HTML-shortcode-Plugin
  * Description: A simple Plugin to manage raw HTML content and include it with a shortcode 
  * Version: 0.1
  * Author: Tim Petter
