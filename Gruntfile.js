@@ -23,7 +23,6 @@ module.exports = function (grunt) {
                         'bower_components/codemirror/mode/javascript/javascript.js',
                         'bower_components/codemirror/mode/css/css.js',
                         'bower_components/codemirror/mode/htmlmixed/htmlmixed.js',
-                        'bower_components/codemirror-emmet/dist/emmet.min.js',
                         'js/raw-html-shortcode.js'
                     ]
                 }

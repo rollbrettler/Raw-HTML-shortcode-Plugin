@@ -8,7 +8,6 @@
         lineWrapping: true,
         foldGutter: true,
         gutters: ["CodeMirror-linenumbers", "CodeMirror-foldgutter"],
-        lineNumbers: true,
-        profile: 'xhtml'
+        lineNumbers: true
     });
 });
