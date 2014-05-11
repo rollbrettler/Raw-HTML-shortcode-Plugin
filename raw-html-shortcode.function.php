@@ -105,11 +105,3 @@ function raw_html_script() {
 
 // Hook into the 'init' action
 add_action( 'init', 'raw_html_post_type', 0 );
-
-// Updater class
-if (!class_exists('BFIGitHubPluginUpdater')) {
-    require_once( 'BFIGitHubPluginUploader.php' );
-}
-if ( is_admin() ) {
-    new BFIGitHubPluginUpdater( __FILE__, 'rollberttler', "Raw-HTML-shortcode-Plugin" );
-}
