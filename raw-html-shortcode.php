@@ -3,7 +3,7 @@
  * Plugin Name: Raw HTML shortcode Plugin
  * Plugin URI: https://github.com/rollbrettler/Raw-HTML-shortcode-Plugin
  * Description: A simple Plugin to manage raw HTML content and include it with a shortcode 
- * Version: 0.1.2
+ * Version: 0.1.3
  * Author: Tim Petter
  * Author URI: https://timpetter.de/
  * License: MIT
@@ -18,6 +18,11 @@ include_once "raw-html-shortcode.function.php";
 if (!class_exists('BFIGitHubPluginUpdater')) {
     require_once( 'BFIGitHubPluginUploader.php' );
 }
-if ( is_admin() ) {
+
+if(!function_exists('wp_get_current_user')) {
+    include(ABSPATH . "wp-includes/pluggable.php"); 
+}
+
+if ( is_super_admin () ) {
     new BFIGitHubPluginUpdater( __FILE__, 'rollbrettler', "Raw-HTML-shortcode-Plugin" );
 }
